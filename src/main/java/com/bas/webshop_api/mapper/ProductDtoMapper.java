@@ -16,6 +16,4 @@ public interface ProductDtoMapper {
     default ProductsDto mapToProductsDto(List<ProductEntity> entity) {
         return new ProductsDto(toDtoList(entity));
     }
-
-
 }
