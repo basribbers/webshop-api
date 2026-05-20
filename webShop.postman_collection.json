@@ -1,0 +1,79 @@
+{
+  "info": {
+    "_postman_id": "183fad65-066e-4c15-97db-61f02274fb44",
+    "name": "webShop",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "9485993"
+  },
+  "item": [
+    {
+      "name": "synchronizeProducts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/synchronizeProducts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "synchronizeProducts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "products",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "searchProducts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/searchProducts?keyword=fjall",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "searchProducts"
+          ],
+          "query": [
+            {
+              "key": "keyword",
+              "value": "fjall"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
