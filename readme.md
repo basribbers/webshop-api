@@ -5,6 +5,8 @@ This is a Java Spring Boot API for a webshop.
 With this API, you can synchronize products, retrieve all products, and search for products.
 
 Java version 25
+Springboot
+Maven
 
 Start the project:
 1. Start Docker desktop
@@ -25,4 +27,4 @@ Uitbreidingen en mogelijke verbeteringen als ik meer tijd had gehad.
 - Unittesten voor alle classes
 - Api opdelen in Modules : web, persistence, domain
 - Domain alleen via ports laten communiceren met de adapters
-- 
+- Foutafhandeling
