@@ -8,6 +8,10 @@ Java version 25
 Springboot
 Maven
 
+Clone the project from: 
+
+https://github.com/basribbers/webshop-api.git
+
 Start the project:
 1. Start Docker desktop
 2. Set up Postgressql database: docker-compose up -d
