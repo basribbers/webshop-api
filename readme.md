@@ -29,6 +29,5 @@ endpoints:
 Uitbreidingen en mogelijke verbeteringen als ik meer tijd had gehad. 
 
 - Unittesten voor alle classes
-- Api opdelen in Modules : web, persistence, domain
 - Domain alleen via ports laten communiceren met de adapters
 - Foutafhandeling

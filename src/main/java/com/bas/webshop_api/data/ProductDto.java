@@ -1,9 +1,12 @@
 package com.bas.webshop_api.data;
 
+import java.math.BigDecimal;
+
 public record ProductDto(
-        Long id,
+        long id,
         String title,
-        Double price,
+        //bedragen moet altijd big decimal zijn,  double kan afrondingsverschillen  veroorzaken
+        BigDecimal price,
         String description,
         String category) {
 }

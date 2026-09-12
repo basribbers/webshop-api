@@ -1,8 +1,10 @@
 package com.bas.webshop_api.response;
 
+import java.math.BigDecimal;
+
 public record ProductResponse(Long id,
-        String title,
-        Double price,
-        String description,
-        String category) {
+              String title,
+              BigDecimal price,
+              String description,
+              String category) {
 }
